@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-06T11:26:22 IST" name="Suite" finished-at="2021-04-06T11:26:35 IST" duration-ms="13841">
+    <groups>
+    </groups>
+    <test started-at="2021-04-06T11:26:22 IST" name="Twittertest" finished-at="2021-04-06T11:26:35 IST" duration-ms="13841">
+      <class name="tests.Twitter">
+        <test-method signature="deleteTweet()[pri:0, instance:tests.Twitter@26e356f0]" started-at="2021-04-06T11:26:32 IST" name="deleteTweet" finished-at="2021-04-06T11:26:35 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+        <test-method signature="getTweet()[pri:0, instance:tests.Twitter@26e356f0]" started-at="2021-04-06T11:26:35 IST" name="getTweet" finished-at="2021-04-06T11:26:35 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTweet -->
+      </class> <!-- tests.Twitter -->
+      <class name="tests.First">
+        <test-method signature="APITest()[pri:0, instance:tests.First@4fb3ee4e]" started-at="2021-04-06T11:26:22 IST" name="APITest" finished-at="2021-04-06T11:26:29 IST" duration-ms="7319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest -->
+      </class> <!-- tests.First -->
+      <class name="tests.Second">
+        <test-method is-config="true" signature="getData()[pri:0, instance:tests.Second@54a7079e]" started-at="2021-04-06T11:26:22 IST" name="getData" finished-at="2021-04-06T11:26:22 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="APITest1(java.lang.String,java.lang.String)[pri:0, instance:tests.Second@54a7079e]" started-at="2021-04-06T11:26:29 IST" name="APITest1" data-provider="NameData" finished-at="2021-04-06T11:26:30 IST" duration-ms="983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Daya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sagar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest1 -->
+        <test-method signature="APITest1(java.lang.String,java.lang.String)[pri:0, instance:tests.Second@54a7079e]" started-at="2021-04-06T11:26:30 IST" name="APITest1" data-provider="NameData" finished-at="2021-04-06T11:26:31 IST" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chaithra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest1 -->
+        <test-method signature="APITest1(java.lang.String,java.lang.String)[pri:0, instance:tests.Second@54a7079e]" started-at="2021-04-06T11:26:31 IST" name="APITest1" data-provider="NameData" finished-at="2021-04-06T11:26:32 IST" duration-ms="830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest1 -->
+      </class> <!-- tests.Second -->
+    </test> <!-- Twittertest -->
+  </suite> <!-- Suite -->
+</testng-results>
